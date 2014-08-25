@@ -1,0 +1,19 @@
+{
+  "name": "lf-umd",
+  "version": "0.0.0",
+  "description": "Add a UMD module definition w/ Livefyre.require",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "bin": {
+    "lf-umd" : "./index.js"
+  },
+  "author": "zjj",
+  "license": "ISC",
+  "dependencies": {
+    "minimist": "^1.1.0",
+    "mustache": "^0.8.2",
+    "uglify-js": "^2.4.15"
+  }
+}
